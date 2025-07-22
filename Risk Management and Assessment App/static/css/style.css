@@ -1,0 +1,43 @@
+:root {
+    --cyber-blue: #00f3ff;
+    --cyber-pink: #ff00ff;
+    --dark-bg: #0a0a1a;
+}
+
+.dark-theme {
+    background-color: var(--dark-bg);
+    color: #ffffff;
+    min-height: 100vh;
+}
+
+.bg-cyber {
+    background: linear-gradient(45deg, var(--cyber-blue), var(--cyber-pink));
+}
+
+.cyber-card {
+    background: rgba(10, 10, 26, 0.8);
+    border: 1px solid var(--cyber-blue);
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 15px var(--cyber-blue);
+}
+
+.cyber-title {
+    color: var(--cyber-blue);
+    text-shadow: 0 0 10px var(--cyber-blue);
+}
+
+.btn-cyber {
+    background: linear-gradient(45deg, var(--cyber-blue), var(--cyber-pink));
+    border: none;
+    color: black;
+    font-weight: bold;
+}
+
+.btn-cyber:hover {
+    box-shadow: 0 0 15px var(--cyber-blue);
+}
+
+#riskChart {
+    height: 600px;
+}
