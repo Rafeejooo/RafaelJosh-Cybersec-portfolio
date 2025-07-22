@@ -1,0 +1,95 @@
+# 🧠 Cybersecurity Portfolio — Rafael Josh
+
+Welcome to my Cybersecurity Portfolio!  
+This repository showcases my hands-on work and projects in cybersecurity, threat intelligence, secure development, OSINT, CTFs, and digital forensics.
+
+---
+
+## About Me
+
+I'm an IT student with a passion for cybersecurity, cyber defense, and secure software development. This portfolio demonstrates my applied skills through real projects, tools, reports, and writeups.
+
+---
+
+## 📁 Repository Structure
+
+| Folder / Project | Description |
+|------------------|-------------|
+| [`misp-nist-risk-dashboard`](./misp-nist-risk-dashboard) | Web dashboard combining MISP threat data and NIST risk scoring |
+| [`ctf-writeups`](./ctf-writeups) | Writeups of CTF challenges (web, pwn, crypto, forensics) |
+| [`cyber-tools`](./cyber-tools) | Custom cybersecurity tools: brute-force, OSINT, WHOIS, subdomain enum |
+| [`forensic-report`](./forensic-report) | Digital forensic investigation report and analysis |
+| [`secure-owasp-marketplace`](./secure-owasp-marketplace) | A secure e-commerce app built using OWASP Top 10 principles |
+
+---
+
+## 🧪 Featured Projects
+
+### 🔸 MISP x NIST Risk Dashboard
+- Flask app pulling MISP threat data and calculating asset risk scores
+- Based on NIST risk model: **Risk = Likelihood × Impact**
+- Visualization using Plotly
+
+
+---
+
+### 🔸 CTF Writeups
+- Solving Capture the Flag challenges from real competitions
+- Covers web exploitation, cryptography, reversing, and forensics
+- Shows tools and thinking process used in attacks/defense
+
+
+---
+
+### 🔸 Cybersecurity Tools
+- CLI-based tools and scripts for:
+  - Subdomain Enumeration
+  - WHOIS Information
+  - Brute-force testing
+  - OSINT-based target recon
+
+
+---
+
+### 🔸 Forensic Report
+- Digital investigation of a sample incident
+- Disk image analysis, evidence recovery
+- Written in a professional report format
+
+---
+
+### 🔸 Secure OWASP Marketplace Web App
+- A secure e-commerce simulation implementing OWASP Top 10 security practices:
+  - Input validation & sanitization
+  - Secure authentication and password handling
+  - SQL injection protection
+  - Session management
+  - XSS prevention
+
+
+
+---
+
+## 📌 Technologies Used
+
+- **Languages**: Python, JavaScript, HTML, SQL
+- **Frameworks**: Flask, Node.js (optional variant), SQLAlchemy
+- **Security Tools**: PyMISP, Nmap, Burp Suite, Wireshark
+- **Databases**: PostgreSQL, SQLite
+- **Forensics**: Autopsy, FTK Imager
+- **Dev Tools**: Git, Docker, VirtualBox, Kali Linux
+
+---
+
+## 📫 Contact
+
+I’m open to cybersecurity internships, collaborations, or freelance work.
+
+📧 Email: rafaeljosh18@gmail.com 
+
+---
+
+## 🧠 Notes
+
+- Some folders include `requirements.txt` files
+- Virtual environments (`venv`) are excluded for size and portability reasons
