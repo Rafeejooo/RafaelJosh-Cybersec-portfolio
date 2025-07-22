@@ -1,0 +1,8 @@
+Directory Brute-Forcer
+
+Brute-forces web directories using a wordlist.
+
+Usage
+
+```bash
+python webdir_bruteforce.py

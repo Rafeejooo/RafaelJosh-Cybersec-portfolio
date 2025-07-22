@@ -1,0 +1,20 @@
+Subdomain Enumerator
+
+A simple subdomain enumeration tool using DNS resolution and a wordlist. Useful for reconnaissance during penetration testing or OSINT investigations.
+
+Features
+
+- Brute-force subdomains using a user-supplied wordlist
+- Resolves valid subdomains and prints IP addresses
+- Lightweight and fast
+
+Requirements
+
+- Python 3.x
+
+No external libraries are required.
+
+Usage
+
+```bash
+python subdom_enum.py

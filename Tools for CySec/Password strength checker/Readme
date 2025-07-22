@@ -1,0 +1,14 @@
+Password Strength Checker
+
+This tool estimates the strength of a password based on **entropy** — a measure of how unpredictable it is.
+
+Features
+
+- Calculates entropy in bits
+- Categorizes password as: Very Weak, Weak, Moderate, Strong, or Very Strong
+- Supports detection of uppercase, lowercase, digits, and symbols
+
+Usage
+
+```bash
+python check_pass_strength.py
