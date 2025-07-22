@@ -1,0 +1,33 @@
+MISP-NIST Risk Management Dashboard
+
+This application integrates threat intelligence from [MISP](https://www.misp-project.org/) with NIST-inspired risk scoring logic. It provides a dashboard that visualizes asset risks based on threat data, asset criticality, and vulnerabilities.
+
+---
+
+Features
+
+- Fetches threats from MISP (via PyMISP)
+- Stores assets, threats, vulnerabilities, and calculated risks in PostgreSQL
+- Visualizes risk scores in a matrix-style dashboard
+- Calculates risk scores using a basic NIST-like formula: 
+Risk = Likelihood x impact 
+
+
+---
+
+Requirements
+
+Before running the app, make sure you have the following installed:
+
+- Python 3.8+
+- PostgreSQL
+- pip
+
+Python Libraries
+
+Install these using the following command:
+
+```bash
+pip install -r requirements.txt
+
+
